@@ -1,0 +1,353 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f0ece5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.navbar {
+    background-color:#667338;
+    overflow: hidden;
+    position: relative;
+}
+
+.nav-button {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+}
+
+.nav-button:hover {
+    color: orange;
+}
+
+.logo{
+   height: 100px;
+   margin-right: 20px;
+   position: absolute;
+}
+.destaques {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.animal-em-destaque {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.animal-em-destaque img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.botao-adotar {
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.botao-adotar:hover {
+    background-color: #2980b9;
+}
+h2{
+    color: #667338;
+   
+}
+.texto{
+    margin-right: 50px;
+}
+
+footer{
+    background-color: #667338;
+    display: flex;
+    position: relative;
+    height: 280px;
+    
+}
+.logo-footer{
+    max-width: 280px;
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+}
+
+.bg-custom{
+    background-color: #667338;
+}
+.navbar-nav a {
+    color: white; 
+    text-decoration: none; 
+    margin-right: 50px;
+    transition: color 0.3s;
+  }
+  
+  .navbar-nav a:hover {
+    background-color: #f0ece5;
+    color: black;
+  }
+ footer a{
+    text-decoration: none;
+    color: #f0ece5;
+    font-size: 18px;
+ }
+
+ footer p{
+    color: #f0ece5;
+    font-size: 18px;
+    padding: 0px 10px;
+
+ 
+ }
+ h4{
+    color: #f0ece5;
+    padding: 30px 10px;
+
+ }
+ .redesocial{
+height: 90px;
+ }
+ 
+ 
+ .logotipo{
+    width: 190px;
+
+ }
+ .logotipo2{
+    width: 150px;
+
+ }
+ .galeria1{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+ }
+ .galeria1 div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .5s cubic-bezier(.25, .4, .45, 1.4);
+ }
+ .galeria1 div:hover{
+    flex: 2;
+ }
+ .galeria2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+  padding: 30px;
+}
+
+
+
+.photo:hover {
+  transform: scale(1.05);
+}
+
+  
+  .photo {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .photo img {
+    width: 250px;
+    height: auto;
+  }
+  .estilofonte{
+    text-align: center;
+    font-weight: bold;
+    color:#667338 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+.estilo2{
+ 
+  font-weight: bold;
+  color:#667338 ;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+  p{
+    font-size: 19px;
+  }
+  .titulo{
+    text-align: center;
+    font-weight: bold;
+    color: #667338;
+
+  }
+  .descricao{
+    font-size: 15px;
+    text-align: center;
+  }
+  .card{
+    background-color:#f0ece4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+  .card :hover{
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+  }
+  .estilofonte2{
+    text-align: center;
+    font-weight: bold;
+    color:#667338 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .center{
+    text-align: center;
+    font: size 19px; 
+  }
+  .negrito{
+    color:#667338;
+    font-weight: bold;
+  }
+  .button{
+   
+    font-size: 20px;
+    padding: 10px 25px;
+    background-color:#667338;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color:#f0ece4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  }
+  .button:hover{
+    transform: scale(1.025);
+    transition: transform 0.3s ease;
+  }
+  ul{
+    list-style: none;
+  }
+  .table-bordered {
+    border: 1px solid #f0ece4;
+
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #ddd;
+    padding: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    
+}
+.estilo-animais{
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+form {
+max-width: 450px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #4CAF60;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.botao{
+  font-size: 20px;
+    padding: 10px 25px;
+    background-color:#667338;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    color:#f0ece4;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.grande{
+  font-size: 25px;
+}
+.sobre{
+  font-weight: bold;
+  color: #667338;
+  font-size: 20px;
+}
+.estilo-sobre{
+  border-radius: 15px;
+}
+.foto-sobre{
+  background-color: #667338;
+  height:200px ;
+}
+.formulario{
+ {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input,
+select {
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+}
